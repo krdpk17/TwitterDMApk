@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.editText);
         textView = (TextView) findViewById(R.id.textView);
         textView.setVisibility(View.GONE);
+
     }
 
     public void writeMessage(View view){
